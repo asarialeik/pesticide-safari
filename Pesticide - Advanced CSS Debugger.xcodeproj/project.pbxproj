@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3DBDA0A2F09EBE40049BABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBDA092F09EBE40049BABC /* AppDelegate.swift */; };
+		C3DBDA0C2F09EBE40049BABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBDA0B2F09EBE40049BABC /* SceneDelegate.swift */; };
+		C3DBDA0F2F09EBE40049BABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA0D2F09EBE40049BABC /* LaunchScreen.storyboard */; };
+		C3DBDA122F09EBE40049BABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA102F09EBE40049BABC /* Main.storyboard */; };
+		C3DBDA1B2F09EBE40049BABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBDA1A2F09EBE40049BABC /* AppDelegate.swift */; };
+		C3DBDA1E2F09EBE40049BABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA1C2F09EBE40049BABC /* Main.storyboard */; };
+		C3DBDA252F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3DBDA242F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3DBDA2F2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3DBDA2E2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3DBDA342F09EBE40049BABC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9F92F09EBE30049BABC /* Main.html */; };
+		C3DBDA352F09EBE40049BABC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9F92F09EBE30049BABC /* Main.html */; };
+		C3DBDA362F09EBE40049BABC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FB2F09EBE30049BABC /* Icon.png */; };
+		C3DBDA372F09EBE40049BABC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FB2F09EBE30049BABC /* Icon.png */; };
+		C3DBDA382F09EBE40049BABC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FC2F09EBE30049BABC /* Style.css */; };
+		C3DBDA392F09EBE40049BABC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FC2F09EBE30049BABC /* Style.css */; };
+		C3DBDA3A2F09EBE40049BABC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FD2F09EBE30049BABC /* Script.js */; };
+		C3DBDA3B2F09EBE40049BABC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FD2F09EBE30049BABC /* Script.js */; };
+		C3DBDA3C2F09EBE40049BABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBD9FE2F09EBE30049BABC /* ViewController.swift */; };
+		C3DBDA3D2F09EBE40049BABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBD9FE2F09EBE30049BABC /* ViewController.swift */; };
+		C3DBDA3E2F09EBE40049BABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FF2F09EBE40049BABC /* Assets.xcassets */; };
+		C3DBDA3F2F09EBE40049BABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DBD9FF2F09EBE40049BABC /* Assets.xcassets */; };
+		C3DBDA402F09EBE40049BABC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBDA012F09EBE40049BABC /* SafariWebExtensionHandler.swift */; };
+		C3DBDA412F09EBE40049BABC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DBDA012F09EBE40049BABC /* SafariWebExtensionHandler.swift */; };
+		C3DBDA5C2F09EBE40049BABC /* options in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA532F09EBE40049BABC /* options */; };
+		C3DBDA5D2F09EBE40049BABC /* result.css in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA542F09EBE40049BABC /* result.css */; };
+		C3DBDA5E2F09EBE40049BABC /* images in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA552F09EBE40049BABC /* images */; };
+		C3DBDA5F2F09EBE40049BABC /* thankyou in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA562F09EBE40049BABC /* thankyou */; };
+		C3DBDA602F09EBE40049BABC /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA572F09EBE40049BABC /* _metadata */; };
+		C3DBDA612F09EBE40049BABC /* pesticide.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA582F09EBE40049BABC /* pesticide.min.css */; };
+		C3DBDA622F09EBE40049BABC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA592F09EBE40049BABC /* manifest.json */; };
+		C3DBDA632F09EBE40049BABC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA5A2F09EBE40049BABC /* _locales */; };
+		C3DBDA642F09EBE40049BABC /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA5B2F09EBE40049BABC /* assets */; };
+		C3DBDA652F09EBE40049BABC /* options in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA532F09EBE40049BABC /* options */; };
+		C3DBDA662F09EBE40049BABC /* result.css in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA542F09EBE40049BABC /* result.css */; };
+		C3DBDA672F09EBE40049BABC /* images in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA552F09EBE40049BABC /* images */; };
+		C3DBDA682F09EBE40049BABC /* thankyou in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA562F09EBE40049BABC /* thankyou */; };
+		C3DBDA692F09EBE40049BABC /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA572F09EBE40049BABC /* _metadata */; };
+		C3DBDA6A2F09EBE40049BABC /* pesticide.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA582F09EBE40049BABC /* pesticide.min.css */; };
+		C3DBDA6B2F09EBE40049BABC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA592F09EBE40049BABC /* manifest.json */; };
+		C3DBDA6C2F09EBE40049BABC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA5A2F09EBE40049BABC /* _locales */; };
+		C3DBDA6D2F09EBE40049BABC /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C3DBDA5B2F09EBE40049BABC /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3DBDA262F09EBE40049BABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3DBD9F32F09EBE30049BABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DBDA232F09EBE40049BABC;
+			remoteInfo = "Pesticide - Advanced CSS Debugger Extension (iOS)";
+		};
+		C3DBDA302F09EBE40049BABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3DBD9F32F09EBE30049BABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DBDA2D2F09EBE40049BABC;
+			remoteInfo = "Pesticide - Advanced CSS Debugger Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3DBDA472F09EBE40049BABC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3DBDA252F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA4E2F09EBE40049BABC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3DBDA2F2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3BEE9BF2F09F1BD0056C83C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
+		C3DBD9FA2F09EBE30049BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		C3DBD9FB2F09EBE30049BABC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C3DBD9FC2F09EBE30049BABC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C3DBD9FD2F09EBE30049BABC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C3DBD9FE2F09EBE30049BABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3DBD9FF2F09EBE40049BABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3DBDA012F09EBE40049BABC /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C3DBDA062F09EBE40049BABC /* Pesticide - Advanced CSS Debugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pesticide - Advanced CSS Debugger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DBDA092F09EBE40049BABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3DBDA0B2F09EBE40049BABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C3DBDA0E2F09EBE40049BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3DBDA112F09EBE40049BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3DBDA132F09EBE40049BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DBDA182F09EBE40049BABC /* Pesticide - Advanced CSS Debugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pesticide - Advanced CSS Debugger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DBDA1A2F09EBE40049BABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3DBDA1D2F09EBE40049BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3DBDA1F2F09EBE40049BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DBDA242F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pesticide - Advanced CSS Debugger Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DBDA292F09EBE40049BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DBDA2E2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pesticide - Advanced CSS Debugger Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DBDA332F09EBE40049BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DBDA532F09EBE40049BABC /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; name = options; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/options"; sourceTree = "<group>"; };
+		C3DBDA542F09EBE40049BABC /* result.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = result.css; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/result.css"; sourceTree = "<group>"; };
+		C3DBDA552F09EBE40049BABC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/images"; sourceTree = "<group>"; };
+		C3DBDA562F09EBE40049BABC /* thankyou */ = {isa = PBXFileReference; lastKnownFileType = folder; name = thankyou; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/thankyou"; sourceTree = "<group>"; };
+		C3DBDA572F09EBE40049BABC /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/_metadata"; sourceTree = "<group>"; };
+		C3DBDA582F09EBE40049BABC /* pesticide.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = pesticide.min.css; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/pesticide.min.css"; sourceTree = "<group>"; };
+		C3DBDA592F09EBE40049BABC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/manifest.json"; sourceTree = "<group>"; };
+		C3DBDA5A2F09EBE40049BABC /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/_locales"; sourceTree = "<group>"; };
+		C3DBDA5B2F09EBE40049BABC /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../Desktop/Pesticide-Advanced-CSS-Debugger-Chrome-Web-Store/assets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3DBDA032F09EBE40049BABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA152F09EBE40049BABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA212F09EBE40049BABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA2B2F09EBE40049BABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3DBD9F22F09EBE30049BABC = {
+			isa = PBXGroup;
+			children = (
+				C3BEE9BF2F09F1BD0056C83C /* .gitignore */,
+				C3DBD9F72F09EBE30049BABC /* Shared (App) */,
+				C3DBDA002F09EBE40049BABC /* Shared (Extension) */,
+				C3DBDA082F09EBE40049BABC /* iOS (App) */,
+				C3DBDA192F09EBE40049BABC /* macOS (App) */,
+				C3DBDA282F09EBE40049BABC /* iOS (Extension) */,
+				C3DBDA322F09EBE40049BABC /* macOS (Extension) */,
+				C3DBDA072F09EBE40049BABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3DBD9F72F09EBE30049BABC /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBD9FE2F09EBE30049BABC /* ViewController.swift */,
+				C3DBD9FF2F09EBE40049BABC /* Assets.xcassets */,
+				C3DBD9F82F09EBE30049BABC /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C3DBD9F82F09EBE30049BABC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBD9F92F09EBE30049BABC /* Main.html */,
+				C3DBD9FB2F09EBE30049BABC /* Icon.png */,
+				C3DBD9FC2F09EBE30049BABC /* Style.css */,
+				C3DBD9FD2F09EBE30049BABC /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3DBDA002F09EBE40049BABC /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBDA522F09EBE40049BABC /* Resources */,
+				C3DBDA012F09EBE40049BABC /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C3DBDA072F09EBE40049BABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBDA062F09EBE40049BABC /* Pesticide - Advanced CSS Debugger.app */,
+				C3DBDA182F09EBE40049BABC /* Pesticide - Advanced CSS Debugger.app */,
+				C3DBDA242F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */,
+				C3DBDA2E2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DBDA082F09EBE40049BABC /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBDA092F09EBE40049BABC /* AppDelegate.swift */,
+				C3DBDA0B2F09EBE40049BABC /* SceneDelegate.swift */,
+				C3DBDA0D2F09EBE40049BABC /* LaunchScreen.storyboard */,
+				C3DBDA102F09EBE40049BABC /* Main.storyboard */,
+				C3DBDA132F09EBE40049BABC /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C3DBDA192F09EBE40049BABC /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBDA1A2F09EBE40049BABC /* AppDelegate.swift */,
+				C3DBDA1C2F09EBE40049BABC /* Main.storyboard */,
+				C3DBDA1F2F09EBE40049BABC /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C3DBDA282F09EBE40049BABC /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBDA292F09EBE40049BABC /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C3DBDA322F09EBE40049BABC /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBDA332F09EBE40049BABC /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C3DBDA522F09EBE40049BABC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBDA532F09EBE40049BABC /* options */,
+				C3DBDA542F09EBE40049BABC /* result.css */,
+				C3DBDA552F09EBE40049BABC /* images */,
+				C3DBDA562F09EBE40049BABC /* thankyou */,
+				C3DBDA572F09EBE40049BABC /* _metadata */,
+				C3DBDA582F09EBE40049BABC /* pesticide.min.css */,
+				C3DBDA592F09EBE40049BABC /* manifest.json */,
+				C3DBDA5A2F09EBE40049BABC /* _locales */,
+				C3DBDA5B2F09EBE40049BABC /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3DBDA052F09EBE40049BABC /* Pesticide - Advanced CSS Debugger (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DBDA482F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger (iOS)" */;
+			buildPhases = (
+				C3DBDA022F09EBE40049BABC /* Sources */,
+				C3DBDA032F09EBE40049BABC /* Frameworks */,
+				C3DBDA042F09EBE40049BABC /* Resources */,
+				C3DBDA472F09EBE40049BABC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DBDA272F09EBE40049BABC /* PBXTargetDependency */,
+			);
+			name = "Pesticide - Advanced CSS Debugger (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Pesticide - Advanced CSS Debugger (iOS)";
+			productReference = C3DBDA062F09EBE40049BABC /* Pesticide - Advanced CSS Debugger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3DBDA172F09EBE40049BABC /* Pesticide - Advanced CSS Debugger (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DBDA4F2F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger (macOS)" */;
+			buildPhases = (
+				C3DBDA142F09EBE40049BABC /* Sources */,
+				C3DBDA152F09EBE40049BABC /* Frameworks */,
+				C3DBDA162F09EBE40049BABC /* Resources */,
+				C3DBDA4E2F09EBE40049BABC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DBDA312F09EBE40049BABC /* PBXTargetDependency */,
+			);
+			name = "Pesticide - Advanced CSS Debugger (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Pesticide - Advanced CSS Debugger (macOS)";
+			productReference = C3DBDA182F09EBE40049BABC /* Pesticide - Advanced CSS Debugger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3DBDA232F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DBDA442F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger Extension (iOS)" */;
+			buildPhases = (
+				C3DBDA202F09EBE40049BABC /* Sources */,
+				C3DBDA212F09EBE40049BABC /* Frameworks */,
+				C3DBDA222F09EBE40049BABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pesticide - Advanced CSS Debugger Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Pesticide - Advanced CSS Debugger Extension (iOS)";
+			productReference = C3DBDA242F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C3DBDA2D2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DBDA4B2F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger Extension (macOS)" */;
+			buildPhases = (
+				C3DBDA2A2F09EBE40049BABC /* Sources */,
+				C3DBDA2B2F09EBE40049BABC /* Frameworks */,
+				C3DBDA2C2F09EBE40049BABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pesticide - Advanced CSS Debugger Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Pesticide - Advanced CSS Debugger Extension (macOS)";
+			productReference = C3DBDA2E2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3DBD9F32F09EBE30049BABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					C3DBDA052F09EBE40049BABC = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					C3DBDA172F09EBE40049BABC = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					C3DBDA232F09EBE40049BABC = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					C3DBDA2D2F09EBE40049BABC = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C3DBD9F62F09EBE30049BABC /* Build configuration list for PBXProject "Pesticide - Advanced CSS Debugger" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3DBD9F22F09EBE30049BABC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3DBDA072F09EBE40049BABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3DBDA052F09EBE40049BABC /* Pesticide - Advanced CSS Debugger (iOS) */,
+				C3DBDA172F09EBE40049BABC /* Pesticide - Advanced CSS Debugger (macOS) */,
+				C3DBDA232F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension (iOS) */,
+				C3DBDA2D2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3DBDA042F09EBE40049BABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA362F09EBE40049BABC /* Icon.png in Resources */,
+				C3DBDA0F2F09EBE40049BABC /* LaunchScreen.storyboard in Resources */,
+				C3DBDA342F09EBE40049BABC /* Main.html in Resources */,
+				C3DBDA3A2F09EBE40049BABC /* Script.js in Resources */,
+				C3DBDA3E2F09EBE40049BABC /* Assets.xcassets in Resources */,
+				C3DBDA122F09EBE40049BABC /* Main.storyboard in Resources */,
+				C3DBDA382F09EBE40049BABC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA162F09EBE40049BABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA372F09EBE40049BABC /* Icon.png in Resources */,
+				C3DBDA392F09EBE40049BABC /* Style.css in Resources */,
+				C3DBDA1E2F09EBE40049BABC /* Main.storyboard in Resources */,
+				C3DBDA3B2F09EBE40049BABC /* Script.js in Resources */,
+				C3DBDA3F2F09EBE40049BABC /* Assets.xcassets in Resources */,
+				C3DBDA352F09EBE40049BABC /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA222F09EBE40049BABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA6A2F09EBE40049BABC /* pesticide.min.css in Resources */,
+				C3DBDA6B2F09EBE40049BABC /* manifest.json in Resources */,
+				C3DBDA6C2F09EBE40049BABC /* _locales in Resources */,
+				C3DBDA6D2F09EBE40049BABC /* assets in Resources */,
+				C3DBDA672F09EBE40049BABC /* images in Resources */,
+				C3DBDA662F09EBE40049BABC /* result.css in Resources */,
+				C3DBDA652F09EBE40049BABC /* options in Resources */,
+				C3DBDA692F09EBE40049BABC /* _metadata in Resources */,
+				C3DBDA682F09EBE40049BABC /* thankyou in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA2C2F09EBE40049BABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA612F09EBE40049BABC /* pesticide.min.css in Resources */,
+				C3DBDA622F09EBE40049BABC /* manifest.json in Resources */,
+				C3DBDA632F09EBE40049BABC /* _locales in Resources */,
+				C3DBDA642F09EBE40049BABC /* assets in Resources */,
+				C3DBDA5E2F09EBE40049BABC /* images in Resources */,
+				C3DBDA5D2F09EBE40049BABC /* result.css in Resources */,
+				C3DBDA5C2F09EBE40049BABC /* options in Resources */,
+				C3DBDA602F09EBE40049BABC /* _metadata in Resources */,
+				C3DBDA5F2F09EBE40049BABC /* thankyou in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3DBDA022F09EBE40049BABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA3C2F09EBE40049BABC /* ViewController.swift in Sources */,
+				C3DBDA0A2F09EBE40049BABC /* AppDelegate.swift in Sources */,
+				C3DBDA0C2F09EBE40049BABC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA142F09EBE40049BABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA3D2F09EBE40049BABC /* ViewController.swift in Sources */,
+				C3DBDA1B2F09EBE40049BABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA202F09EBE40049BABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA402F09EBE40049BABC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DBDA2A2F09EBE40049BABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBDA412F09EBE40049BABC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3DBDA272F09EBE40049BABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3DBDA232F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension (iOS) */;
+			targetProxy = C3DBDA262F09EBE40049BABC /* PBXContainerItemProxy */;
+		};
+		C3DBDA312F09EBE40049BABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3DBDA2D2F09EBE40049BABC /* Pesticide - Advanced CSS Debugger Extension (macOS) */;
+			targetProxy = C3DBDA302F09EBE40049BABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3DBD9F92F09EBE30049BABC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DBD9FA2F09EBE30049BABC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C3DBDA0D2F09EBE40049BABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DBDA0E2F09EBE40049BABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C3DBDA102F09EBE40049BABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DBDA112F09EBE40049BABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3DBDA1C2F09EBE40049BABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DBDA1D2F09EBE40049BABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3DBDA422F09EBE40049BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3DBDA432F09EBE40049BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C3DBDA452F09EBE40049BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 954DZK4QSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger.Extension";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3DBDA462F09EBE40049BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 954DZK4QSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger.Extension";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3DBDA492F09EBE40049BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 954DZK4QSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3DBDA4A2F09EBE40049BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 954DZK4QSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3DBDA4C2F09EBE40049BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger.Extension";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3DBDA4D2F09EBE40049BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger.Extension";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C3DBDA502F09EBE40049BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3DBDA512F09EBE40049BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesticide - Advanced CSS Debugger";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Pesticide---Advanced-CSS-Debugger";
+				PRODUCT_NAME = "Pesticide - Advanced CSS Debugger";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3DBD9F62F09EBE30049BABC /* Build configuration list for PBXProject "Pesticide - Advanced CSS Debugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DBDA422F09EBE40049BABC /* Debug */,
+				C3DBDA432F09EBE40049BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DBDA442F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DBDA452F09EBE40049BABC /* Debug */,
+				C3DBDA462F09EBE40049BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DBDA482F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DBDA492F09EBE40049BABC /* Debug */,
+				C3DBDA4A2F09EBE40049BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DBDA4B2F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DBDA4C2F09EBE40049BABC /* Debug */,
+				C3DBDA4D2F09EBE40049BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DBDA4F2F09EBE40049BABC /* Build configuration list for PBXNativeTarget "Pesticide - Advanced CSS Debugger (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DBDA502F09EBE40049BABC /* Debug */,
+				C3DBDA512F09EBE40049BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3DBD9F32F09EBE30049BABC /* Project object */;
+}
