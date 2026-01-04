@@ -13,7 +13,7 @@ Since this is an open-source developer build, you must build it on your own mach
 ### 1. Download
 Clone this repository to your Mac:
 ```bash
-git clone https://github.com/YOUR_USERNAME/pesticide-safari.git
+git clone https://github.com/chiraagb/pesticide-safari.git
 ```
 
 ### 2. Open in Xcode
